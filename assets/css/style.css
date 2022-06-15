@@ -1,0 +1,24 @@
+* {
+    border: 0;
+    margin: 0;
+    display: flexbox;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.rock, .paper, .scissors {
+    height:300px;
+    width: 300px;
+}
+
+ 
