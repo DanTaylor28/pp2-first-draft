@@ -1,24 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 * {
-    border: 0;
     margin: 0;
-    display: flexbox;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
 }
 
 .title {
     text-align: center;
-    font-size: 40px;
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: 45px;
 }
 
-
-
-.logo {
-    height: 60px;
-    width: 60px;
+.opener {
+    text-align: center;
+    font-size: 25px;
+    margin: 40px auto;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 900px;
+    padding: 10px;
 }
 
-.rock, .paper, .scissors {
-    height:300px;
-    width: 300px;
+#scores {
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
 }
 
- 
+.user {
+    float: left;
+}
+
+.opponent {
+    float: right;
+}

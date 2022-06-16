@@ -4,23 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7009ec3e44.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1 class="title">
-                rock, paper, scissors <img class="logo" src="assets/images/logo.jpg"></h1>
-            </div>
+        <h1 class="title">Rock, Paper, Scissors <i class="fa-solid fa-hand-scissors"></i></h1>
     </header>
-    <div>
-        <img class="rock" src="assets/images/rock-button.png">
-        <img class="paper" src="assets/images/paper-button.png">
-        <img class="scissors" src="assets/images/scissors-button.png">
-        
+
+    <div class="opener">
+        <p>Do you have what it takes to beat the computer? Play and find out!</p>
     </div>
-    
-    <script src="assets/js/script.js"></script>
+
+    <div id="scores">
+        <div class="user">Your Score</div>
+        <div class="opponent">Opponents Score</div>
+        <div id="tally">
+            <span>0</span>:<span>0</span>
+        </div>
+    </div>
+
+    <div>
+        <button>rock</button>
+        <button>paper</button>
+        <button>scissors</button>
+    </div>
+
+    <div>
+        <button>How to play</button>
+    </div>
+
+
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>
